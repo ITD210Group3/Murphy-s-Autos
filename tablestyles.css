@@ -1,0 +1,15 @@
+.car
+{
+	text-align:center;
+	border-style: outset;
+	border-width: 5px;
+}
+.car td
+{
+	border-style: outset;
+}
+
+.car td strong
+{
+	text-align: top;
+}

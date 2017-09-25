@@ -7,61 +7,165 @@ Krista Vest
 Nicholas Plutia
 Charles Powell
 -->
+<head>
+<link href="new1.css" rel="stylesheet">
+<link href="tablestyles.css" rel="stylesheet">
+<link href="navbar.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
 
 
 
-<header>
-<h1>MURPHY'S AUTOS</h1>
-<nav><ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Sedans</a></li>
-<li><a href="#">Trucks</a></li>
-<li><a href="#">SUVs</a></li>
-<li><a href="#">Inventory</a></li>
-</ul></nav>
-</header>
 <body>
+<header>
+<h1 id="Header">MURPHY'S AUTOS</h1>
+<nav class="navbar navbar-custom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-left" href="#"><img src="MurphyTest.png" alt="Home"/>Murphy's Auto</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+			<li>
+              <li ><a href="sedan.html">Sedan</a></li>
+              <li class="active"><a href="#">Truck</a></li>
+              <li><a href="suv.html">SUV</a></li>
+			  <li><a href="#">Inventory</a></li>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+</header>
 
-Pickup
-Make/ Model: Honda Ridgeline Sport
-Price: $33,170
+<div id="content">
+<br/>
+<table class="car">
+<tbody>
+<tr>
+<td width="10%">
+<strong>Mileage:</strong>
+<br/>
+<strong>City:</strong> 19 MPG
+<br/>
+<strong>Highway:</strong> 26 MPG
+</td>
+<td width="15%"><strong>Brand:</strong> Honda </td>
+<td width="15%"><strong>Model:</strong>Ridgeline Sport</td>
+<td width="10%"><strong>Price:</strong> $33,170</td>
+</tr>
 
-4 Doors
-Curb Weight:  4433 lbs
+<tr>
+<td height="300px"><strong>Curb Weight(lbs):</strong>  4433 lbs</td>
 
-All-Wheel Drive 
-3.5 liter V6 engine
-280 Horsepower
-262 lb-ft Torque
+<td colspan="2" rowspan="2" >
+<div id="carousel">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="img-responsive center-block" src="ridgeline/ridgelineExterior(1).jpg" alt="Honda Ridgeline Sport Exterior">
+			 <div class="carousel-caption">
+			<h2 id="name">Honda Ridgeline Sport</h2>
+			</div>
+          </div>
+          <div class="item">
+            <img class="img-responsive center-block" src="ridgeline/ridgelineExterior(2).jpg" alt="Honda Ridgeline Sport Rear Exterior">
+			<div class="carousel-caption">
+			<h2 id="name">Honda Ridgeline Sport</h2>
+			</div>
+			
+          </div>
+          <div class="item">
+            <img class="img-responsive center-block" src="ridgeline/ridgelineInterior.jpg" alt="Honda Ridgeline Sport Interior">
+			<div class="carousel-caption">
+			<h2 id="name">Honda Ridgeline Sport</h2>
+			</div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="docs.min.js"></script>
+</div>
+</td>
+<td rowspan="2">
+<strong>Features:</strong>
+<br/>
 
-City: 19 MPG
-Highway: 26 MPG
+<p>&bull;4 Doors</p>
 
-Anti-Lock Brakes
-Daytime Running Lights
-Automatic Halogen Headlights
-In-Bed Trunk
-Privacy Glass
-LED Taillights
-Integrated Trailer Hitch
-Security System
-Remote Entry
-Fog Lights
-Power Windows
-Power Door Locks
-18 in. Gray-Painted Alloy Wheels
-All-Season Tires
+<p>&bull;All-Wheel Drive </p>
+<p>&bull;3.5 liter V6 engine</p>
+<p>&bull;280 Horsepower</p>
+<p>&bull;262 lb-ft Torque</p>
+
+<p>&bull;Anti-Lock Brakes</p>
+<p>&bull;Daytime Running Lights</p>
+<p>&bull;Automatic Halogen Headlights</p>
+<p>&bull;In-Bed Trunk</p>
+<p>&bull;Privacy Glass</p>
+<p>&bull;LED Taillights</p>
+<p>&bull;Integrated Trailer Hitch</p>
+<p>&bull;Security System</p>
+<p>&bull;Remote Entry</p>
+<p>&bull;Fog Lights</p>
+<p>&bull;Power Windows</p>
+<p>&bull;Power Door Locks</p>
+<p>&bull;18 in. Gray-Painted Alloy Wheels</p>
+<p>&bull;All-Season Tires</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<strong>Colors:</strong>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
 
 
+</div>
 
-</body>
 <footer>
-<address>
-Murphy's Autos
-1069 Holland Rd. Virginia Beach, VA
-23453
-(757)-566-6666
+<address><strong>
+Murphy's Auto &bull;
+1069 Holland Rd. Virginia Beach, VA &bull;
+23453 &bull;
+(757)-566-6666</strong>
 </address>
 </footer>
+</body>
+
 
 </html>

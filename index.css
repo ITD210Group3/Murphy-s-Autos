@@ -1,0 +1,32 @@
+.intro {
+	background-color: #e10000;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.intro img{
+	display: block;
+	width: 200px;
+	margin: auto;
+}
+
+#carousel{
+	background-color: #e10000;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
+
+aside
+{
+	background-color: #e10000;
+	border-radius: 10px;
+	color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}

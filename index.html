@@ -8,30 +8,154 @@ Nicholas Plutia
 Charles Powell
 -->
 
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="Murphy's Auto Dealership "/>
+<meta name="keywords" content="car, sedan,suv,truck, murphy, auto"/>
+
+<link href="new1.css" rel="stylesheet">
+<link href="navbar.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<title>Murphy's Auto - Home</title>
+	</head>
 
 
-<header>
-<h1>MURPHY'S AUTOS</h1>
-<nav><ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Sedans</a></li>
-<li><a href="#">Trucks</a></li>
-<li><a href="#">SUVs</a></li>
-<li><a href="#">Inventory</a></li>
-</ul></nav>
-</header>
+
+
 <body>
+<div id="banner">
+</div>
+<header>
+<h1 id="Header">MURPHY'S AUTOS</h1>
+<nav class="navbar navbar-custom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-left" href="#"><img src="MurphyTest.png" alt="Home"/>Murphy's Auto</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+			<li>
+              <li><a href="">Sedan</a></li>
+              <li><a href="truck.html">Truck</a></li>
+              <li><a href="suv.html">SUV</a></li>
+			  <li><a href="inventory.html">Inventory</a></li>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+</header>
 <!--
 Information to be added
 -->
-</body>
+
+<div id="content">
+<div class="intro">
+<img src="MurphyTest.png"/>
+<p>SINCE: 1987</p>
+<br/>
+<p>"We've been providing Virginia with brand new & used cars at very affordable prices from the very first day we started."</p>
+</div>
+<br/>
+
+<div id="carousel">
+<h1>Featured Car:</h1>
+<h2>Honda Ridgeline Sport</h2>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <a href="truck.html"><img class="img-responsive center-block" src="ridgeline/ridgelineExterior(1).jpg" alt="Honda Ridgeline Sport Exterior"></a>
+			 <div class="carousel-caption">
+			<h2 id="name">Honda Ridgeline Sport</h2>
+			</div>
+          </div>
+          <div class="item">
+            <a href="truck.html"><img class="img-responsive center-block" src="ridgeline/ridgelineExterior(2).jpg" alt="Honda Ridgeline Sport Rear Exterior"></a>
+			<div class="carousel-caption">
+			<h2 id="name">Honda Ridgeline Sport</h2>
+			</div>
+			
+          </div>
+          <div class="item">
+            <a href="truck.html"><img class="img-responsive center-block" src="ridgeline/ridgelineInterior.jpg" alt="Honda Ridgeline Sport Interior"></a>
+			<div class="carousel-caption">
+			<h2 id="name">Honda Ridgeline Sport</h2>
+			</div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="docs.min.js"></script>
+</div>
+
+<br/>
+
+<aside>
+<h2>Customer Comments</h2>
+<blockquote>
+<p>"Murphy's Auto helped me get the car of my dreams and they provide many options for payment which is the least I could say for other car dealerships"
+<br/>
+&#8212;<cite>Annonymous Customer</cite>
+</p>
+
+<p>"I was looking for a good car for my daughter who just got her license. Thank God I found Murphy's Auto. Great cars with even better deals."
+<br/>
+&#8212;<cite>Richard Berk</cite>
+</p>
+
+<p>"I say; if you're looking for the best cars with the best prices, I'd definitely tell you to go to Murphy's Auto."
+<br/>
+&#8212;<cite>Annonymous Customer</cite>
+</p>
+</blockquote>
+<h4>Be part of our ever growing customer family</h4>
+
+</aside>
+</div>
+<br/>
+
+<br/>
+
 <footer>
-<address>
-Murphy's Autos
-1069 Holland Rd. Virginia Beach, VA
-23453
-(757)-566-6666
+<address><strong>
+Murphy's Auto &bull;
+1069 Holland Rd. Virginia Beach, VA &bull;
+23453 &bull;
+(757)-566-6666</strong>
 </address>
 </footer>
+</body>
 
 </html>

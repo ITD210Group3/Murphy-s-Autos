@@ -1,14 +1,12 @@
 #carousel {
   padding: 10px;
-  float: left;
   
 }
 
 #carousel img{
 	position: relative;
-	width: 720px;
+	width: auto;
 	height: 480px;
-	float: left;
 }
 
 .theme-dropdown .dropdown-menu {
